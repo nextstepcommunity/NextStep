@@ -28,7 +28,7 @@ body {
     font-family: 'Poppins', sans-serif;
     color: var(--text);
     background-color: #08110d;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.52)), url('next-step.png') center/cover no-repeat fixed;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.52)), url('https://nextstepcommunity.github.io/NextStep/next-step.png') center/cover no-repeat fixed;
     min-height: 100vh;
     line-height: 1.6;
     overflow-x: hidden;
