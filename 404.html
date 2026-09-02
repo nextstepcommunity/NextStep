@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Page not found — Next Step</title>
+	<meta name="description" content="The page you were looking for could not be found on Next Step.">
+
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="error-page">
+	<header>
+		<div class="header-inner">
+			<a class="logo" href="index.html">Next Step</a>
+      <nav id="primary-navigation" class="nav-menu" aria-label="Primary navigation">
+        <a class="nav-link" href="index.html">Go back home</a>
+      </nav>
+			<button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+				Menu
+			</button>
+		</div>
+	</header>
+
+	<main id="main-content" class="error-main">
+		<section class="error-content" aria-labelledby="error-title">
+			<p class="error-code" aria-hidden="true">404</p>
+			<p class="error-eyebrow">Looks like this step is missing</p>
+			<h1 id="error-title">We couldn’t find that page.</h1>
+			<p class="error-message">The link may be outdated, or the page may have moved.</p>
+			<a href="feedback.html">Give feedback <span aria-hidden="true">→</span></a>
+            <br><a class="btn primary" href="index.html">Go back home</a>
+		</section>
+	</main>
+
+
+  <footer class="site-footer">
+    <p>© 2026 Next Step. Helping you with your next step.</p>
+  </footer>
+	<script defer src="script.js"></script>
+</body>
+</html>
