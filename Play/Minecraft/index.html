@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Next Step — Minecraft</title>
+  <link rel="stylesheet" href="minecraft.css">
+  <script defer src="minecraft.js"></script>
+  <meta name="description" content="NextStep Minecraft — community server info and links.">
+  <style>
+    .map-switcher { display: flex; gap: 12px; margin-bottom: 20px; justify-content: center; flex-wrap: wrap; }
+    .map-btn { padding: 8px 16px; background: rgba(192, 138, 59, 0.2); border: 2px solid var(--accent); border-radius: 999px; color: var(--text); cursor: pointer; font-weight: 600; transition: all 0.3s; }
+    .map-btn.active { background: var(--accent); color: #2b1a0c; }
+    .map-btn:hover { background: rgba(192, 138, 59, 0.4); }
+    .map-container { position: relative; width: 100%; height: 600px; border-radius: 16px; overflow: hidden; margin: 20px 0; border: 1px solid rgba(255,255,255,0.06); }
+    .map-container iframe { width: 100%; height: 100%; border: none; }
+    .rule-item { background: rgba(20,12,7,0.64); padding: 18px 22px; border-radius: 12px; border-left: 4px solid var(--accent); margin: 16px 0; }
+    .rule-item h3 { color: var(--accent); margin-bottom: 8px; font-size: 1.1rem; }
+    .rule-item p { color: var(--text-soft); font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <a class="logo" href="#home">NextStep > Minecraft</a>
+      <button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false">Menu</button>
+      <nav id="primary-navigation" class="nav-menu" aria-label="Primary navigation">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#info">Info</a>
+        <a class="nav-link" href="#rules">Rules</a>
+        <a class="nav-link" href="#maps">Maps</a>
+        <a class="nav-link" href="#gallery">Gallery</a>
+        <a class="nav-link" href="#worlds">Worlds</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h1>Next Step</h1>
+        <p>Helping you with your next step. A safe online community</p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="https://discord.gg/762MzWjJXv" target="_blank" rel="noopener noreferrer">Discord</a>
+          <a class="btn primary" href="https://www.youtube.com/@NextStepCoreCommunity" target="_blank" rel="noopener noreferrer">Youtube</a>
+          <a class="btn primary" href="https://nextstep.community" rel="noopener noreferrer">Website</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Info Section -->
+    <section id="info" class="page-section">
+      <div class="glass-box">
+        <h1>How to Join NextStep Minecraft</h1>
+        <p class="section-intro">Connect to our community server</p>
+        
+        <h2>Connection Information</h2>
+        <p>Next Step is available across all platforms and all versions:</p>
+        <ul style="margin: 12px 0 20px 24px; color: var(--text-soft);">        
+          <li><strong>Minecraft Java Edition:</strong> connect to <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 4px;">nextstep.community</code></li>
+          <li><strong>Minecraft Bedrock Edition:</strong> connect to <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 4px;">bedrock.nextstep.community port: 7225</code></li>
+          <li><strong>Minecraft Education Edition:</strong> connect to <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 4px;">261057267533300281d24de4ece15ee9c467877826b2b3fc1e</code></li>
+          <li><strong>Minecraft Console Edition:</strong> Add friend <code style="background: rgba(0,0,0,0.3); padding: 2px 6px; border-radius: 4px;">NextStep</code> and join through their profile</li>
+        </ul>
+        
+        <p style="color: #ff6b6b; margin: 16px 0;"><strong>⚠️ Important:</strong> Hacking clients/mods will be detected and blocked. Repeated attempts may result in a ban.</p>
+        
+        <p style="margin-top: 20px; color: var(--muted);">Something not working? Please report any issues on our <a href="https://nextstep.community/report" target="_blank" rel="noopener noreferrer" style="color: var(--accent); font-weight: 600;">Report Issue</a></p>
+        
+        <h2>Learn More</h2>
+        <p>All the functions of the server may be overwhelming. On the core, you don't have to do or know anything to still have fun. If you want to learn more about the server capabilities, check out our <a href="guide.html" style="color: var(--accent); font-weight: 600;">full guide</a>.</p>
+      </div>
+    </section>
+
+    <!-- Rules Section -->
+    <section id="rules" class="page-section">
+      <div class="glass-box">
+        <h1>Server Rules</h1>
+        <p class="section-intro">Please read and follow these guidelines to maintain a great community</p>
+        
+        <div class="rule-item">
+          <h3>📋 General Compliance</h3>
+          <p>You must follow your local laws, the Minecraft EULA, and the Discord Terms of Service and Community Guidelines. Since Minecraft and Discord are connected, NextStep's Discord rules also apply here.</p>
+        </div>
+        
+        <div class="rule-item">
+          <h3>⚡ Keep Performance Peaceful</h3>
+          <p>No AFK farming, massive mob farms, lag machines, large hopper/redstone contraptions, or anything else that causes significant performance issues.</p>
+        </div>
+        
+        <div class="rule-item">
+          <h3>🌍 Global Bans</h3>
+          <p>Bans are global across NextStep platforms. A ban on one platform may result in a ban on other NextStep-related platforms. You have the right to appeal at <a href="https://nextstep.community/appeal" target="_blank" rel="noopener noreferrer" style="color: var(--accent); font-weight: 600;">appeal</a></p>
+        </div>
+        
+        <div class="rule-item">
+          <h3>🚫 Cheating Not Allowed</h3>
+          <p>No duplication glitches, cheating/hacking/exploiting, x-ray, bots, or cracked/hacked clients. Whitelisted clients: Vanilla, Fabric, Forge, Vivecraft, LambdaMod.</p>
+        </div>
+        
+        <div class="rule-item">
+          <h3>🤝 Keep Respectful and Fair</h3>
+          <p>Unclaimed items are fair game, but no grave camping, TP killing, harassment near claims, blocking spawn, griefing, or any other disruptive behavior.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Maps Section -->
+    <section id="maps" class="page-section">
+      <div class="glass-box">
+        <h1>Interactive Maps</h1>
+        <p class="section-intro">Explore our worlds in real-time</p>
+        <div class="map-switcher">
+          <a class="btn primary" href="http://map.nextstep.community/" rel="noopener noreferrer">BlueMap</a>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="page-section">
+      <div class="glass-box">
+        <h1>Gallery</h1>
+        <p class="section-intro">Explore beautiful screenshots and videos from NextStep Minecraft</p>
+        <div id="gallery-container" class="gallery-grid">
+          <!-- Gallery items will be loaded from gallery.json -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Worlds Section -->
+    <section id="worlds" class="page-section">
+      <div class="glass-box">
+        <h1>Previous Worlds</h1>
+        <p class="section-intro">Download archives of our previous world saves</p>
+        
+        <div id="worlds-container" style="margin-top: 24px;">
+          <!-- World downloads will be loaded from downloads.json -->
+          <p style="text-align: center; color: var(--muted); padding: 40px 20px;">
+            Loading world downloads...
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span class="current-year"></span> NextStep Minecraft.</p>
+  </footer>
+
+  <script>
+    function switchMap(mapName) {
+      const dynmap = document.getElementById('dynmap');
+      const bluemap = document.getElementById('bluemap');
+      const buttons = document.querySelectorAll('.map-btn');
+      
+      buttons.forEach(btn => btn.classList.remove('active'));
+      
+      if (mapName === 'dynmap') {
+        dynmap.style.display = 'block';
+        bluemap.style.display = 'none';
+        buttons[0].classList.add('active');
+        document.getElementById('map-link').href = dynmap.src;
+      } else {
+        dynmap.style.display = 'none';
+        bluemap.style.display = 'block';
+        buttons[1].classList.add('active');
+        document.getElementById('map-link').href = bluemap.src;
+      }
+    }
+  </script>
+</body>
+</html>
